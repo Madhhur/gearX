@@ -1,0 +1,12 @@
+uvicorn products:app --reload
+ Schema |       Name       | Type  |  Owner   
+--------+------------------+-------+----------
+ public | air_conditioners | table | postgres
+ public | fridges          | table | postgres
+ public | laptops          | table | postgres
+ public | mobiles          | table | postgres
+ public | routers          | table | postgres
+ public | televisions      | table | postgres
+ public | washing_machines | table | postgres
+ public | watches          | table | postgres
+(8 rows)
